@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testing</title>
+
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
+    <style>
+        button{
+            padding: 0.7rem 2rem;
+            border: none;
+            border-radius: 5px;
+            background: red;
+            color: #fff;
+        }
+
+        p{
+            color: rgb(216, 32, 32);
+            font-size: 1rem;
+        }
+
+        span{
+            font-size: 2rem;
+            margin-left: 3rem;
+            
+        }
+
+        span:hover{
+            background-color: red;
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <H1>Testing Javascript</H1>
+    <button onclick="add()">subscribe</button>
+    <span><i class='bx bx-like'></i></span>
+    <p id="remmie"></p>
+
+    <script>
+
+    let name = 'This server is not avilable!'
+    let addel = document.getElementById('remmie')
+
+    function add() {
+        addel.textContent = name
+    }
+
+
+    </script>
+</body>
+</html>
